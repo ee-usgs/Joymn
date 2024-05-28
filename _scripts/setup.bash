@@ -58,6 +58,7 @@ brew install gradle
 brew install gradle-completion
 brew install docker
 brew install colima
+brew install docker-compose
 brew install bash
 brew install bash-completion
 brew install openssl
