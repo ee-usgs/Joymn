@@ -46,6 +46,11 @@ elif [[ -n "$BASH_VERSION" ]]; then
   source ~/.bash_profile
 fi
 
+# Commands needed for other installs
+brew install jq   # Used for shell interaction w/ json config files
+
+./install_docker.bash
+
 # 'tap' the github list of cask-versions so multiple versions are available of
 # casks.  This allows finding older versions of Java
 brew tap homebrew/cask
@@ -56,9 +61,6 @@ brew install git
 brew install maven
 brew install gradle
 brew install gradle-completion
-brew install docker
-brew install colima
-brew install docker-compose
 brew install bash
 brew install bash-completion
 brew install openssl
@@ -68,6 +70,7 @@ brew install openssl
 # Improvement over bash grep, including non-greedy qualifiers and replacement
 brew install ripgrep
 brew install python@3.11
+brew install virtualenv
 # brew install ansible
 # Used by Obsidian to export to Word and other formats
 # brew install pandoc
@@ -111,10 +114,12 @@ brew install --cask fluid
 brew install --cask google-chrome
 brew install --cask pycharm
 
+
 # GUIs that for some reason don't require '--cask'
 brew install drawio
 brew install obsidian
 brew install bbedit
+brew install firefox
 
 
 

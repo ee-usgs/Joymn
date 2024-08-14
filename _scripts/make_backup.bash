@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "This command will copy all known useful paths to a directory to be transfered to a new machine."
+echo "This assumes you keep all your important data in ~/datausgs - Adjust the script if that is not true."
 read -r -p "Are you sure you want to run this? [y/N] " response
 
 if [[ "$response" =~ ^([yY][eE][sS]|[yY])+$ ]]
