@@ -70,6 +70,7 @@ brew install openssl
 # Improvement over bash grep, including non-greedy qualifiers and replacement
 brew install ripgrep
 brew install python@3.11
+brew install virtualenv
 # brew install ansible
 # Used by Obsidian to export to Word and other formats
 # brew install pandoc
@@ -113,10 +114,12 @@ brew install --cask fluid
 brew install --cask google-chrome
 brew install --cask pycharm
 
+
 # GUIs that for some reason don't require '--cask'
 brew install drawio
 brew install obsidian
 brew install bbedit
+brew install firefox
 
 
 
