@@ -121,6 +121,10 @@ brew install obsidian
 brew install bbedit
 brew install firefox
 
+## Extras
+# Nice suite of monospaced fonts: https://github.com/githubnext/monaspace?tab=readme-ov-file#monaspace
+brew install font-monaspace
+
 
 
 
