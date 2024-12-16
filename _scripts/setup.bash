@@ -69,6 +69,8 @@ brew install openssl
 
 # Improvement over bash grep, including non-greedy qualifiers and replacement
 brew install ripgrep
+# Strangely missing on Mac
+brew install wget
 brew install python@3.11
 brew install virtualenv
 # brew install ansible
