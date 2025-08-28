@@ -11,7 +11,7 @@ tmp_dir=$(mktemp -d -t setup_java_ssl_XXX)
 echo "Using temp directory $tmp_dir"
 
 
-curl -o "$tmp_dir/doi-cacert.cer" http://sslhelp.doi.net/docs/DOIRootCA2.cer
+curl -o "$tmp_dir/doi-cacert.cer" https://apps-int.usgs.gov/ssl/DOIRootCA2.cer
 
 echo "Attempting to delete the cert aliased as 'DOI_Cert', which may error if it doesn't exist"
 keytool -delete -alias DOI_Cert -cacerts -storepass changeit
